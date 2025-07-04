@@ -9,7 +9,7 @@
 <body>
   <!-- Chat Support -->
   <div id="chat-support">
-    <a href="https://ww.facebook.com/profile.php?id=100087876250983" target="_blank">Chat with us</a>
+    <a href="https://ww.facebook.com" target="_blank">Chat with us</a>
   </div>
 
   <!-- Navigation -->
@@ -101,7 +101,24 @@
   </section>
 
   <footer>
-    <p>&copy; 2025 BFF Diner. All rights reserved.</p>
+    <p>&copy; 2022 BFF Diner. All rights reserved.</p>
   </footer>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Load Facebook SDK for JavaScript -->
+<script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js">
+</script>
+
+<!-- Your Chat Plugin Code -->
+<div class="fb-customerchat"
+     attribution="setup_tool"
+     page_id="100087876250983"
+     theme_color="#8db600"
+     logged_in_greeting="Hi! Welcome to BFF Diner 👋 How can we help you?"
+     logged_out_greeting="Hi there! Message us for inquiries or bookings.">
+</div>
+
 </body>
 </html>
