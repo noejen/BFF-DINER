@@ -5,17 +5,20 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
+
 body {
   background-color: #fff;
   color: #333;
   line-height: 1.6;
 }
+
 :root {
   --pink: #ffc0cb;
   --apple-green: #8db600;
   --dark: #333;
   --light: #fff;
 }
+
 header {
   background-color: var(--pink);
   padding: 20px;
@@ -24,28 +27,34 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .logo {
   height: 60px;
 }
+
 nav ul {
   list-style: none;
   display: flex;
   gap: 15px;
 }
+
 nav a {
   text-decoration: none;
   color: var(--dark);
   font-weight: bold;
 }
+
 section {
   padding: 60px 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
+
 h1, h2, h3 {
   color: var(--apple-green);
   margin-bottom: 20px;
 }
+
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -56,15 +65,13 @@ h1, h2, h3 {
   text-decoration: none;
   margin: 10px 10px 0 0;
 }
-ul {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
+
 .product-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .product {
   flex: 1 1 200px;
   border: 1px solid #ccc;
@@ -72,16 +79,19 @@ ul {
   padding: 15px;
   text-align: center;
 }
+
 .product img {
   max-width: 100%;
   border-radius: 10px;
 }
+
 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
   max-width: 500px;
 }
+
 form input,
 form textarea,
 form button {
@@ -89,34 +99,41 @@ form button {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
 form button {
   background-color: var(--pink);
   color: var(--dark);
   font-weight: bold;
   cursor: pointer;
 }
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 15px;
 }
+
 .gallery-grid img {
   width: 100%;
   border-radius: 10px;
 }
+
 details {
   margin-bottom: 10px;
 }
+
 details summary {
   font-weight: bold;
   cursor: pointer;
 }
+
 footer {
   background-color: var(--pink);
   text-align: center;
   padding: 20px;
   color: var(--dark);
 }
+
 #chat-support {
   position: fixed;
   bottom: 20px;
@@ -127,6 +144,7 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 100;
 }
+
 #chat-support a {
   color: var(--light);
   text-decoration: none;
